@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<body>
+  <div class="content">
+    <div class="container wow fadeInUp delay-03s">
+      <div class="row">
+        <div class="logo text-center">
+          <h2>We Are Creating Something New!! Coming Soon</h2>
+        </div>
+
+        <div id="countdown" data-wow-delay=".3s" data-date="Dec 26, 2017 06:00:00"></div>
+        <h2 class="subs-title text-center">Subscribe now to get Recent updates!!!</h2>
+        <div class="subcription-info text-center">
+          <form method="GET" action="{{ url_for('hello') }}">
+            <div class="form-group">
+            <label for="yourname">Please enter your name:</label>
+            <input type="text" class="form-control" name="yourname" /><br />
+          </div>
+          <div class="form-group">
+            <label for="youremail">Please enter your email:</label>
+            <input type="text" class="form-control" name="youremail" /><br />
+            <input class="btn btn-primary" value="Subscribe!" type="submit" />
+          </div>
+          </form>
+          <p class="sub-p">We Promise to never spam you.</p>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="row bort text-center">
+          <div class="social">
+            <ul>
+              <li>
+                <a href=""><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+</body>
+{% endblock %}

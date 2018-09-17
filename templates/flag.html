@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+   <body>
+     <div class="content">
+       <div class="row">
+         <div class="container">
+     <h2>flag{s!mpl3_xss_iz_s!mpl3}</h2>
+
+    <p> You provided the following information:<br>
+      {% autoescape false %}
+      Name: {{name}}<br>
+      Email: {{email}}</p>
+      {% endautoescape %}
+    </div>
+    </div>
+    </div>
+   </body>
+
+{% endblock %}

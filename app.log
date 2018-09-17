@@ -1,0 +1,49 @@
+2018-04-02 09:07:09-0700 [-] Log opened.
+2018-04-02 09:07:09-0700 [-] Site starting on 5000
+2018-04-02 09:07:09-0700 [-] Starting factory <twisted.web.server.Site instance at 0x10b7379e0>
+2018-04-02 09:07:13-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:13 +0000] "GET / HTTP/1.1" 200 2597 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+2018-04-02 09:07:18-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:18 +0000] "GET / HTTP/1.1" 200 2597 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET / HTTP/1.1" 200 2597 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /css/font-awesome.min.css HTTP/1.1" 200 31000 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /js/jquery.countdown.min.js HTTP/1.1" 200 3391 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /css/style.css HTTP/1.1" 200 6116 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /js/bootstrap.min.js HTTP/1.1" 200 37045 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /js/wow.js HTTP/1.1" 200 11953 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /js/custom.js HTTP/1.1" 200 1000 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /js/jquery.min.js HTTP/1.1" 200 97163 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /css/animate.css HTTP/1.1" 200 72259 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:24-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /css/bootstrap.min.css HTTP/1.1" 200 121200 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:25-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 71896 "http://127.0.0.1:5000/css/font-awesome.min.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:25-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:24 +0000] "GET /img/black.jpg HTTP/1.1" 200 279986 "http://127.0.0.1:5000/css/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:33-0700 [-] /Library/Python/2.7/site-packages/twisted/web/wsgi.py:128: exceptions.UnicodeWarning: write() argument should be str, not u'[2018-04-02 09:07:33,403] ERROR in app: Exception on /hello/ [GET]\nTraceback (most recent call last):\n  File "/Library/Python/2.7/site-packages/flask/app.py", line 1982, in wsgi_app\n    response = self.full_dispatch_request()\n  File "/Library/Python/2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File "/Library/Python/2.7/site-packages/flask/app.py", line 1517, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File "/Library/Python/2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request\n    rv = self.dispatch_request()\n  File "/Library/Python/2.7/site-packages/flask/app.py", line 1598, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File "routes.py", line 72, in hello\n    r = requests.post("http://127.0.0.1:8093/", data=data, headers=content)\n  File "/Library/Python/2.7/site-packages/requests/api.py", line 112, in post\n    return request(\'post\', url, data=data, json=json, **kwargs)\n  File "/Library/Python/2.7/site-packages/requests/api.py", line 58, in request\n    return session.request(method=method, url=url, **kwargs)\n  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request\n    resp = self.send(prep, **send_kwargs)\n  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send\n    r = adapter.send(request, **kwargs)\n  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send\n    raise ConnectionError(e, request=request)\nConnectionError: HTTPConnectionPool(host=\'127.0.0.1\', port=8093): Max retries exceeded with url: / (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x10b82db50>: Failed to establish a new connection: [Errno 61] Connection refused\',))\n' (unicode)
+2018-04-02 09:07:33-0700 [wsgi] [2018-04-02 09:07:33,403] ERROR in app: Exception on /hello/ [GET]
+	Traceback (most recent call last):
+	  File "/Library/Python/2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+	    response = self.full_dispatch_request()
+	  File "/Library/Python/2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+	    rv = self.handle_user_exception(e)
+	  File "/Library/Python/2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+	    reraise(exc_type, exc_value, tb)
+	  File "/Library/Python/2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+	    rv = self.dispatch_request()
+	  File "/Library/Python/2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+	    return self.view_functions[rule.endpoint](**req.view_args)
+	  File "routes.py", line 72, in hello
+	    r = requests.post("http://127.0.0.1:8093/", data=data, headers=content)
+	  File "/Library/Python/2.7/site-packages/requests/api.py", line 112, in post
+	    return request('post', url, data=data, json=json, **kwargs)
+	  File "/Library/Python/2.7/site-packages/requests/api.py", line 58, in request
+	    return session.request(method=method, url=url, **kwargs)
+	  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
+	    resp = self.send(prep, **send_kwargs)
+	  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
+	    r = adapter.send(request, **kwargs)
+	  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 508, in send
+	    raise ConnectionError(e, request=request)
+	ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8093): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b82db50>: Failed to establish a new connection: [Errno 61] Connection refused',))
+	
+2018-04-02 09:07:33-0700 [-] "127.0.0.1" - - [02/Apr/2018:16:07:33 +0000] "GET /hello/?yourname=test%3Cxss%3E&youremail=test HTTP/1.1" 500 291 "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:52.0) Gecko/20100101 Firefox/52.0"
+2018-04-02 09:07:45-0700 [-] Received SIGINT, shutting down.
+2018-04-02 09:07:45-0700 [twisted.web.server.Site] (TCP Port 5000 Closed)
+2018-04-02 09:07:45-0700 [-] Stopping factory <twisted.web.server.Site instance at 0x10b7379e0>
+2018-04-02 09:07:45-0700 [-] Main loop terminated.
