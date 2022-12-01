@@ -1,10 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 LABEL maintainer Ed Arnold
-RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y python-pip sqlite3 lib32z1-dev python-dev libxml2-dev libxslt-dev libffi-dev libssl-dev libfontconfig git wget
-
-RUN apt-get install build-essential chrpath libssl-dev libxft-dev -y \
-      && apt-get install libfreetype6 libfreetype6-dev -y \
-      && apt-get install libfontconfig1 libfontconfig1-dev -y
+RUN DEBIAN_FRONTEND=noninteractive apt update && apt install -y python3-pip wget libfontconfig
 
 RUN set -xeu \
   \
@@ -22,7 +18,7 @@ EXPOSE 8093
 
 RUN mkdir /opt/flaskapp
 ADD . /opt/flaskapp/CTF_app_xss1
-RUN pip install -r /opt/flaskapp/CTF_app_xss1/requirements.txt
+RUN pip3 install -r /opt/flaskapp/CTF_app_xss1/requirements.txt
 RUN mkdir /var/log/flaskapp/
 
 CMD ["/opt/flaskapp/CTF_app_xss1/start.sh"]

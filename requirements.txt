@@ -1,4 +1,6 @@
-Flask==0.12
-requests==2.13.0
-simplejson==3.10.0
-Twisted==16.6.0
+Flask
+itsdangerous
+MarkupSafe
+requests
+Werkzeug
+Jinja2
